@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.62-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+    </BuildCommand>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="public\NewFolder1\" />
+    <Folder Include="public\NewFolder\" />
+  </ItemGroup>
+</Project>
