@@ -1,0 +1,2 @@
+E:\Project\Netflix_clone3\Netflix_clone3\obj\Debug\Netflix_clone3.esproj.SuggestedBindingRedirects.cache
+E:\Project\Netflix_clone3\Netflix_clone3\obj\Debug\Netflix_clone3.esproj.CoreCompileInputs.cache
