@@ -2,6 +2,8 @@
 
 Welcome to our Netflix Clone project! 🎉 In this collaborative effort, we leveraged a tech stack comprising HTML, CSS, Javascript, Node.js, and MongoDB, along with integrating data from the TMDB API to recreate the Netflix experience with an added layer of functionality.
 
+##Note: check out all the branches for complete code.
+
 ## Key Features
 
 1. **User Authentication:**
