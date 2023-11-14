@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix : Homepage</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <img src="images/logo2.png" class="logo" alt="">
+        <div class="join-box">
+            <p class="join-msg">unlimited tv shows & movies</p>
+            <button class="btn join-btn" onclick="window.location.href='/recommend'">Recommended Movies for You</button>
+            <button class="btn join-btn" onclick="window.location.href='/search'">Search Movies In Database</button>
+            <button class="btn join-btn" onclick="window.location.href='/588228'">About</button>
+            <button class="btn" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <header class="main">
+        <h1 class="heading">movies</h1>
+        <p class="info">Movies move us like nothing else can, whether they're scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</p>
+        <!-- movie list -->
+         <!--<div class="movie-list">
+
+            <button class="pre-btn"><img src="img/pre.png" alt=""></button>
+
+            <h1 class="movie-category">Popular movie</h1>
+
+            <div class="movie-container">
+                <div class="movie">
+                    <img src="img/poster.jpg" alt="">
+                    <p class="movie-title">movie name</p>
+                </div>
+            </div>
+
+            <button class="nxt-btn"><img src="img/nxt.png" alt=""></button>
+
+        </div>--> 
+    </header>
+
+    <script src="javascripts/api.js"></script>
+    <script src="javascripts/scroll.js"></script>
+    <script src="javascripts/home.js"></script>
+    
+</body>
+</html>

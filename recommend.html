@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/recommend.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <img src="images/logo.png" class="logo" alt="">
+        <div class="join-box">
+            <p class="join-msg">unlimited tv shows & movies</p>
+            <button class="btn join-btn" onclick="window.location.href='/indexpage'">Home</button>
+            <button class="btn join-btn" onclick="window.location.href='/search'">Search Movies In Database</button>
+            <button class="btn" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+    </nav>
+    <header class="main">
+        <h1>Movie Recommendations</h1>
+        <div id="recommendations"></div>
+    </header>
+    <script src="javascripts/recommend.js"></script>
+</body>
+</html>

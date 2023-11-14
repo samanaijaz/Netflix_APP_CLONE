@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <img src="images/logo.png" class="logo" alt="">
+        <div class="join-box">
+            <p class="join-msg">unlimited tv shows & movies</p>
+
+            <button class="btn join-btn" onclick="window.location.href='/indexpage'">Home</button>
+            <button class="btn join-btn" onclick="window.location.href='/recommend'">Recommended Movies for You</button>
+            <button class="btn" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+    </nav>
+    <header class="main">
+        <!--<form id="searchForm" class="search-bar">
+            <input type="text" name="search" pattern=".*\S.*" required>
+            <button class="search-btn" type="submit">
+                <span>Search</span>
+            </button>
+        </form>-->
+        <form id="searchForm" class="search-bar">
+            <input type="text" id="searchText" name="search" placeholder="Enter movie title">
+            <button class="search-btn" type="submit"><span>Search</span></button>
+            
+        </form>
+
+        <div id="results"></div>
+    </header>
+        
+
+
+
+        <script src="javascripts/search.js"></script>
+</body>
+</html>
